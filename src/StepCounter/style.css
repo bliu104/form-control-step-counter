@@ -1,0 +1,75 @@
+.root {
+  display: flex;
+}
+
+.rootStep {
+  display: flex;
+  padding: 10px;
+  width: 150px;
+  border: white;
+}
+.blackcircle {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whitecircle {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.greencircle {
+  cursor: pointer;
+  background-color: green;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.graycircle {
+  cursor: pointer;
+  background-color: gray;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.whitecircle:hover {
+  background-color: pink;
+}
+.title {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+.contentContainer {
+  padding: 10px;
+}
+
+.button {
+  margin-top: 100px;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
